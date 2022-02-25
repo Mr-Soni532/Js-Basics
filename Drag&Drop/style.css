@@ -1,0 +1,33 @@
+body{
+    background: darkslategray;
+}
+
+.imgBox{
+
+    background-image: url(bright_red_and_white_hd_red_aesthetic.jpg);
+    position: absolute;
+    height: 158px;
+    width: 158px;
+    border-radius: 50%;
+  
+}
+.whiteBox{
+    position: relative;
+    height: 158px;
+    width: 158px;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+    border: black solid;
+    margin: 10px 10px;
+}
+.hold{
+    border: solid 4px red;
+}
+.hide{
+    display: none;
+}
+.dashed{
+    border-style: dashed;
+    background-color: rgb(110, 51, 51);
+}
